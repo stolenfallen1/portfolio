@@ -1,10 +1,11 @@
+import HeroContent from "../Components/HeroContent";
 
 const Hero = () => {
-    return (
-        <div>
-            
-        </div>
-    )
-}
+  return (
+    <>
+      <HeroContent />
+    </>
+  );
+};
 
-export default Hero
+export default Hero;

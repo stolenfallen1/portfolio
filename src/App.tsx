@@ -1,12 +1,11 @@
-import Hero from "./Views/Hero"
+import Hero from "./Views/Hero";
 
 function App() {
-
   return (
     <div>
-      <Hero/>
+      <Hero />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
