@@ -6,14 +6,16 @@ const HeroContent = () => {
     <div className="flex flex-col justify-center items-end h-screen pr-20">
       <div className="flex flex-col">
         <div>
-          <h1 className="text-white text-7xl pb-3">Jhon Llyod Quizeo</h1>
-          <h3 className="text-white text-4xl pb-5 text-center">
+          <h1 className="text-white text-6xl pb-3 font-montserrat">
+            Jhon Llyod Quizeo
+          </h1>
+          <h3 className="text-white text-3xl pb-5 text-center font-montserrat">
             A junior web / mobile developer
           </h3>
         </div>
         <div className="text-center">
           <Link to="/Projects">
-            <button className="text-white text-2xl border-b-2 border-sky-500">
+            <button className="text-white text-2xl border-b-4 border-sky-500 font-montserrat">
               View Projects
             </button>
           </Link>
