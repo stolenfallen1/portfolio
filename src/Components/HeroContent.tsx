@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { BsFacebook, BsGithub, BsInstagram } from "react-icons/bs";
+import { TypeAnimation } from "react-type-animation";
 
 const HeroContent = () => {
   return (
@@ -10,7 +11,15 @@ const HeroContent = () => {
             Jhon Llyod Quizeo
           </h1>
           <h3 className="text-white text-3xl pb-5 text-center font-montserrat">
-            A junior web / mobile developer
+            <TypeAnimation
+              sequence={[
+                "A junior web developer",
+                2500,
+                "A junior mobile developer",
+                2500,
+              ]}
+              repeat={Infinity}
+            />
           </h3>
         </div>
         <div className="text-center">
