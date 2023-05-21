@@ -24,14 +24,16 @@ const HeroContent = () => {
         </div>
         <div className="text-center">
           <Link to="/Projects">
-            <button className="text-white text-2xl border-b-4 border-sky-500 font-montserrat">
-              View Projects
+            <button className="border-b-4 border-sky-500 font-montserrat hover:border-sky-700 ease-out duration-150">
+              <p className="text-2xl text-white hover:opacity-70 ease-out duration-150">
+                View Projects
+              </p>
             </button>
           </Link>
           <div className="mx-auto flex items-center justify-center mt-5">
-            <BsFacebook className="text-white text-4xl cursor-pointer mx-2" />
-            <BsGithub className="text-white text-4xl cursor-pointer mx-2" />
-            <BsInstagram className="text-white text-4xl cursor-pointer mx-2" />
+            <BsFacebook className="text-white text-4xl cursor-pointer mx-2 hover:text-blue-600 ease-in duration-150" />
+            <BsGithub className="text-white text-4xl cursor-pointer mx-2 hover:text-zinc-500 ease-in duration-150" />
+            <BsInstagram className="text-white text-4xl cursor-pointer mx-2 hover:text-rose-400 ease-in duration-150" />
           </div>
           {/* Let's Chat button here */}
         </div>
