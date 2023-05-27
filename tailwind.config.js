@@ -8,7 +8,7 @@ export default {
       },
       screens: {
         sm: { min: "414px" },
-        md: { min: "768px" },
+        md: { min: "700px" },
         lg: { min: "1024px" },
         xl: { min: "1400px" },
       },

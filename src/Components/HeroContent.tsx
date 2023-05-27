@@ -7,17 +7,12 @@ const HeroContent = () => {
     <div className="flex flex-col justify-center items-center lg:items-end lg:mr-20 min-h-screen">
       <div className="flex flex-col">
         <div>
-          <h1 className="text-white font-bold tracking-tigher text-3xl xl:text-6xl lg:text-6xl pb-3 font-montserrat">
+          <h1 className="text-white font-bold tracking-tigher text-3xl xl:text-6xl lg:text-6xl md:text-5xl sm:text-4xl pb-3 font-montserrat">
             Jhon Llyod Quizeo
           </h1>
-          <h3 className="text-white text-3xl pb-5 text-center font-montserrat">
+          <h3 className="text-white italic text-2xl xl:text-5xl lg:text-4xl md:text-4xl sm:text-3xl pb-5 text-center font-montserrat">
             <TypeAnimation
-              sequence={[
-                "A junior web developer",
-                2500,
-                "A junior mobile developer",
-                2500,
-              ]}
+              sequence={["A junior web dev", 2500, "A junior mobile dev", 2500]}
               repeat={Infinity}
             />
           </h3>
@@ -25,7 +20,7 @@ const HeroContent = () => {
         <div className="text-center">
           <Link to="/Projects">
             <button className="border-b-4 border-sky-500 font-montserrat hover:border-sky-700 ease-out duration-150">
-              <p className="text-2xl text-white hover:opacity-70 ease-out duration-150">
+              <p className="text-lg xl:text-2xl lg:text-2xl md:text-xl sm:text-xl text-white hover:opacity-70 ease-out duration-150">
                 View Projects
               </p>
             </button>
