@@ -4,10 +4,10 @@ import { TypeAnimation } from "react-type-animation";
 
 const HeroContent = () => {
   return (
-    <div className="flex flex-col justify-center items-end h-screen pr-20">
+    <div className="flex flex-col justify-center items-center lg:items-end lg:mr-20 min-h-screen">
       <div className="flex flex-col">
         <div>
-          <h1 className="text-white text-6xl pb-3 font-montserrat">
+          <h1 className="text-white font-bold tracking-tigher text-3xl xl:text-6xl lg:text-6xl pb-3 font-montserrat">
             Jhon Llyod Quizeo
           </h1>
           <h3 className="text-white text-3xl pb-5 text-center font-montserrat">

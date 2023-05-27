@@ -6,6 +6,12 @@ export default {
       fontFamily: {
         montserrat: ["Montserrat"],
       },
+      screens: {
+        sm: { min: "414px" },
+        md: { min: "768px" },
+        lg: { min: "1024px" },
+        xl: { min: "1400px" },
+      },
     },
   },
   plugins: [],
