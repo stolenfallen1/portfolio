@@ -34,15 +34,17 @@ const Projects = () => {
 
   return (
     <>
-      {projectDataArray.map((project, index) => (
-        <div key={index}>
-          <ProjectLists
-            title={project.title}
-            img={project.img}
-            content={project.content}
-          />
-        </div>
-      ))}
+      <div className="bg-black">
+        {projectDataArray.map((project, index) => (
+          <div key={index}>
+            <ProjectLists
+              title={project.title}
+              img={project.img}
+              content={project.content}
+            />
+          </div>
+        ))}
+      </div>
     </>
   );
 };
