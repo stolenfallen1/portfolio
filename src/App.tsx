@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Hero from "./Views/Hero";
+import Projects from "./Views/Projects";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { PuffLoader } from "react-spinners";
 
@@ -26,6 +27,7 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Hero />} />
+            <Route path="/Projects" element={<Projects />} />
           </Routes>
         </BrowserRouter>
       )}
