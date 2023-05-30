@@ -1,5 +1,3 @@
-import React from "react";
-
 interface ProjectListsProps {
   title: string;
   img: any;
