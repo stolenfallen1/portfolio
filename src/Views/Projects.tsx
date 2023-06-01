@@ -41,6 +41,7 @@ const Projects = () => {
               title={project.title}
               img={project.img}
               content={project.content}
+              index={index}
             />
           </div>
         ))}
