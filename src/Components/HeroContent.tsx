@@ -26,9 +26,15 @@ const HeroContent = () => {
             </button>
           </Link>
           <div className="mx-auto flex items-center justify-center mt-5">
-            <BsFacebook className="text-white text-4xl cursor-pointer mx-2 hover:text-blue-600 ease-in duration-150" />
-            <BsGithub className="text-white text-4xl cursor-pointer mx-2 hover:text-zinc-500 ease-in duration-150" />
-            <BsInstagram className="text-white text-4xl cursor-pointer mx-2 hover:text-rose-400 ease-in duration-150" />
+            <a href="https://github.com/stolenfallen1" target="_blank">
+              <BsGithub className="text-white text-4xl cursor-pointer mx-2 hover:text-zinc-500 ease-in duration-150" />
+            </a>
+            <a href="https://www.facebook.com/stolenfallen1/" target="_blank">
+              <BsFacebook className="text-white text-4xl cursor-pointer mx-2 hover:text-blue-600 ease-in duration-150" />
+            </a>
+            <a href="https://www.instagram.com/llyd_qzo/" target="_blank">
+              <BsInstagram className="text-white text-4xl cursor-pointer mx-2 hover:text-rose-400 ease-in duration-150" />
+            </a>
           </div>
           {/* Let's Chat button here */}
         </div>
