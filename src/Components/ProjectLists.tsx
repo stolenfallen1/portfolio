@@ -56,18 +56,20 @@ const ProjectLists = ({ title, img, content, index }: ProjectListsProps) => {
       </h1>
       <div className="flex">
         <div
-          className={`flex ${flexDirectionClass} justify-center items-center lg:flex-col md:flex-col sm:flex-col`}
+          className={`flex ${flexDirectionClass} lg:flex-col md:flex-col sm:flex-col`}
         >
           <img src={img} alt={title} />
-          <div className="">
+          <div className={`${paddingX} flex flex-col justify-center`}>
             <p
-              className={`text-white ${paddingX} lg:px-10 md:px-10 sm:px-5 sm:text-base text-justify`}
+              className={`text-white lg:px-10 md:px-10 sm:px-5 sm:text-base text-justify`}
             >
               {content}
             </p>
-            <button className="text-white text-lg border-white border-2 px-3 py-2 mt-4 rounded">
-              Go to Repo
-            </button>
+            <div className="flex justify-center mt-8">
+              <button className="text-black bg-white hover:bg-slate-300 text-lg px-3 py-2 rounded">
+                Go to Repo
+              </button>
+            </div>
           </div>
         </div>
       </div>
