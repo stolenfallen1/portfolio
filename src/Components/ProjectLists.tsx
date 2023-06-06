@@ -5,9 +5,16 @@ interface ProjectListsProps {
   img: any;
   content: string;
   index: number;
+  repo: string;
 }
 
-const ProjectLists = ({ title, img, content, index }: ProjectListsProps) => {
+const ProjectLists = ({
+  title,
+  img,
+  content,
+  index,
+  repo,
+}: ProjectListsProps) => {
   const [isVisible, setIsVisible] = useState(false);
   const componentRef = useRef<HTMLDivElement>(null);
 
@@ -66,9 +73,13 @@ const ProjectLists = ({ title, img, content, index }: ProjectListsProps) => {
               {content}
             </p>
             <div className="flex justify-center mt-8">
-              <button className="text-black bg-white hover:bg-slate-300 text-lg px-3 py-2 rounded">
+              <a
+                className="text-black bg-white hover:bg-slate-300 text-lg px-3 py-2 rounded"
+                href={repo}
+                target="_blank"
+              >
                 Go to Repo
-              </button>
+              </a>
             </div>
           </div>
         </div>

@@ -10,25 +10,29 @@ const Projects = () => {
       title: "Eventr",
       img: Eventr,
       content:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas voluptates ex provident repudiandae. Vel quas eligendi aut inventore veniam labore.",
+        "A basic web based gaming event information system. This was project was developing during my stay at DNA Micro during my internship.",
+      repo: "https://github.com/stolenfallen1/event_system",
     },
     {
       title: "DIGIBRI",
       img: DIGIBRI,
       content:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas voluptates ex provident repudiandae. Vel quas eligendi aut inventore veniam labore.",
+        "Web based mobile responsive Library management system. This project is specifically tailored only for Lahug Night High School, This was developed as my capstone project.",
+      repo: "https://github.com/stolenfallen1/DIGIBRI",
     },
     {
       title: "EXPO ToDo App",
       img: ToDoApp,
       content:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas voluptates ex provident repudiandae. Vel quas eligendi aut inventore veniam labore.",
+        "A very common mobile app. The ToDo App. This is one of my personal projects, I decided to develop this app while I was studying mobile development using react native.",
+      repo: "https://github.com/stolenfallen1/Expo-ToDoApp",
     },
     {
       title: "EXPO Weather App",
       img: WeatherApp,
       content:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas voluptates ex provident repudiandae. Vel quas eligendi aut inventore veniam labore.",
+        "Weather tracking app, Just like Expo ToDo App. This is one of my personal projects. I choose to develop this kind of project in order to improve my skills on using react native and at the same time be able to experience using third party API's",
+      repo: "https://github.com/stolenfallen1/ExpoWeatherApp",
     },
   ];
 
@@ -42,6 +46,7 @@ const Projects = () => {
               img={project.img}
               content={project.content}
               index={index}
+              repo={project.repo}
             />
           </div>
         ))}
