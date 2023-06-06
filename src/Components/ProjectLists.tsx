@@ -55,7 +55,7 @@ const ProjectLists = ({
       ref={componentRef}
       style={{
         opacity: isVisible ? 1 : 0,
-        transition: "opacity 1.25s ease-in-out",
+        transition: "opacity 1.5s ease-in-out",
       }}
     >
       <h1 className="pb-10 text-white text-4xl font-bold tracking-tighter text-center">
