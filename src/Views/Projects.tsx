@@ -38,7 +38,7 @@ const Projects = () => {
       title: "Motivational App",
       img: WeatherApp,
       content:
-        "Weather tracking app, Just like Expo ToDo App. This is one of my personal projects. I choose to develop this kind of project in order to improve my skills on using react native and at the same time be able to experience using third party API's",
+        "A simple motivational app (Quote Generator w/ notification) to keep you going all throughout your day. This is one of my personal projects. I decided to create this app since I easily get demotivated and I want to have a simple app that will can help motivate me.",
       repo: "https://github.com/stolenfallen1/MotivationalApp",
     },
   ];
