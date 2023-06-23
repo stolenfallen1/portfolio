@@ -3,6 +3,7 @@ import Eventr from "../Assets/Web/Eventr.png";
 import DIGIBRI from "../Assets/Web/DIGIBRI.png";
 import ToDoApp from "../Assets/Mobile/EXPO_TODO.png";
 import WeatherApp from "../Assets/Mobile/EXPO_WEATHER.png";
+import MotivationalApp from "../Assets/Mobile/MotivationalApp.png";
 
 const Projects = () => {
   const projectDataArray = [
@@ -36,7 +37,7 @@ const Projects = () => {
     },
     {
       title: "Motivational App",
-      img: WeatherApp,
+      img: MotivationalApp,
       content:
         "A simple motivational app (Quote Generator w/ notification) to keep you going all throughout your day. This is one of my personal projects. I decided to create this app since I easily get demotivated and I want to have a simple app that will can help motivate me.",
       repo: "https://github.com/stolenfallen1/MotivationalApp",
