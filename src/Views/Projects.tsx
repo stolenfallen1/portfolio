@@ -34,6 +34,13 @@ const Projects = () => {
         "Weather tracking app, Just like Expo ToDo App. This is one of my personal projects. I choose to develop this kind of project in order to improve my skills on using react native and at the same time be able to experience using third party API's",
       repo: "https://github.com/stolenfallen1/ExpoWeatherApp",
     },
+    {
+      title: "Motivational App",
+      img: WeatherApp,
+      content:
+        "Weather tracking app, Just like Expo ToDo App. This is one of my personal projects. I choose to develop this kind of project in order to improve my skills on using react native and at the same time be able to experience using third party API's",
+      repo: "https://github.com/stolenfallen1/MotivationalApp",
+    },
   ];
 
   return (
