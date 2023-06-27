@@ -26,8 +26,14 @@ const HeroContent = () => {
               </p>
             </button>
           </Link>
-          <div>
-            <a href={Resume}>Download Resume</a>
+          <div className="m-8">
+            <a
+              href={Resume}
+              target="_blank"
+              className="text-white text-lg font-montserrat border-2 px-3 py-2 rounded hover:bg-white hover:text-black ease-out duration-500"
+            >
+              Download Resume
+            </a>
           </div>
           <div className="mx-auto flex items-center justify-center mt-5">
             <a href="https://github.com/stolenfallen1" target="_blank">
