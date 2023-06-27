@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { BsFacebook, BsGithub, BsInstagram } from "react-icons/bs";
+import Resume from "../Assets/Hero/CV_QUIZEO.pdf";
 import { TypeAnimation } from "react-type-animation";
 
 const HeroContent = () => {
@@ -25,6 +26,9 @@ const HeroContent = () => {
               </p>
             </button>
           </Link>
+          <div>
+            <a href={Resume}>Download Resume</a>
+          </div>
           <div className="mx-auto flex items-center justify-center mt-5">
             <a href="https://github.com/stolenfallen1" target="_blank">
               <BsGithub className="text-white text-4xl cursor-pointer mx-2 hover:text-zinc-500 ease-in duration-150" />
