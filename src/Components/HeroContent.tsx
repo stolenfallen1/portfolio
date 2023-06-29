@@ -30,7 +30,7 @@ const HeroContent = () => {
             <a
               href={Resume}
               target="_blank"
-              className="text-white text-lg font-montserrat border-2 px-3 py-2 rounded hover:bg-white hover:text-black ease-out duration-500"
+              className="text-xs xl:text-xl lg:text-lg md:text-lg text-white font-montserrat border-2 px-3 py-2 rounded hover:bg-white hover:text-black ease-out duration-500"
             >
               Download Resume
             </a>
