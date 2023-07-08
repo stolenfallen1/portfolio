@@ -4,6 +4,7 @@ import DIGIBRI from "../Assets/Web/DIGIBRI.png";
 import ToDoApp from "../Assets/Mobile/EXPO_TODO.png";
 import WeatherApp from "../Assets/Mobile/EXPO_WEATHER.png";
 import MotivationalApp from "../Assets/Mobile/MotivationalApp.png";
+import SkillsContent from "../Components/SkillsContent";
 
 const Projects = () => {
   const projectDataArray = [
@@ -58,6 +59,7 @@ const Projects = () => {
             />
           </div>
         ))}
+        <SkillsContent />
       </div>
     </>
   );
