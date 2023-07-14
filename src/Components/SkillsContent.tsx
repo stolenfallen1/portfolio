@@ -19,7 +19,7 @@ import GIT from "../Assets/SkillsLogo/git.png";
 
 const SkillsContent = () => {
   return (
-    <div className="mt-20 px-20 pb-10">
+    <div className="mt-20 px-20 pt-10 pb-10 bg-slate-800">
       <h1 className="text-white text-4xl font-bold tracking-tighter text-center">
         SKILLS
       </h1>
