@@ -23,7 +23,7 @@ const SkillsContent = () => {
       <h1 className="text-white text-4xl font-bold tracking-tighter text-center">
         SKILLS
       </h1>
-      <div className="grid grid-cols-9 lg:gap-10 items-center mt-16">
+      <div className="grid lg:grid-cols-9 md:grid-cols-6 sm:grid-cols-3 lg:gap-10 md:gap-4 sm:gap-2 items-center mt-16">
         <img src={FIGMA} alt="HTML" style={{ width: "60px" }} />
         <img src={HTML} alt="HTML" style={{ width: "85px" }} />
         <img src={CSS} alt="HTML" style={{ width: "76px" }} />
