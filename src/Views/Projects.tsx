@@ -1,6 +1,7 @@
 import ProjectLists from "../Components/ProjectLists";
 import Eventr from "../Assets/Web/Eventr.png";
 import DIGIBRI from "../Assets/Web/DIGIBRI.png";
+import StrawHats from "../Assets/Web/StrawHats.png";
 import ToDoApp from "../Assets/Mobile/EXPO_TODO.png";
 import WeatherApp from "../Assets/Mobile/EXPO_WEATHER.png";
 import MotivationalApp from "../Assets/Mobile/MotivationalApp.png";
@@ -21,6 +22,13 @@ const Projects = () => {
       content:
         "Web based mobile responsive Library management system. This project is specifically tailored only for Lahug Night High School, This was developed as my capstone project.",
       repo: "https://github.com/stolenfallen1/DIGIBRI",
+    },
+    {
+      title: "StrawHats",
+      img: StrawHats,
+      content:
+        "A web based system for one piece otaku fans. This will serve as a forum or stack exchange website for one piece lovers.",
+      repo: "https://github.com/stolenfallen1/StrawHats",
     },
     {
       title: "EXPO ToDo App",
