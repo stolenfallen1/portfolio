@@ -6,6 +6,7 @@ interface ProjectListsProps {
   content: string;
   index: number;
   repo: string;
+  skills: string[];
 }
 
 const ProjectLists = ({
@@ -14,6 +15,7 @@ const ProjectLists = ({
   content,
   index,
   repo,
+  skills,
 }: ProjectListsProps) => {
   const [isVisible, setIsVisible] = useState(false);
   const componentRef = useRef<HTMLDivElement>(null);
@@ -80,6 +82,22 @@ const ProjectLists = ({
               >
                 Go to Repo
               </a>
+            </div>
+            <div className="flex justify-center mt-8">
+              {skills.map((skill, index) => (
+                <div style={{ width: "70px", height: "50px", padding: "3px" }}>
+                  <img
+                    key={index}
+                    src={skill}
+                    alt={`skill-${index}`}
+                    style={{
+                      width: "100%",
+                      height: "100%",
+                      objectFit: "contain",
+                    }}
+                  />
+                </div>
+              ))}
             </div>
           </div>
         </div>
