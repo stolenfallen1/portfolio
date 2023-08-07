@@ -28,7 +28,7 @@ const ProjectLists = ({
       {
         root: null,
         rootMargin: "0px",
-        threshold: 0.2, // Adjust the threshold value as needed
+        threshold: 0.5, // Adjust the threshold value as needed
       }
     );
 
@@ -51,13 +51,14 @@ const ProjectLists = ({
 
   return (
     <div
-      className={`box-border p-0 m-0 h-screen flex flex-col justify-center ${
+      className={`box-border p-0 m-0 flex flex-col justify-center ${
         isVisible ? "animate-scroll" : ""
       }`}
       ref={componentRef}
       style={{
         opacity: isVisible ? 1 : 0,
         transition: "opacity 1.5s ease-in-out",
+        height: "100vh",
       }}
     >
       <h1 className="pb-10 text-white text-4xl font-bold tracking-tighter text-center">
@@ -85,7 +86,7 @@ const ProjectLists = ({
             </div>
             <div className="flex justify-center mt-8">
               {skills.map((skill, index) => (
-                <div style={{ width: "70px", height: "50px", padding: "3px" }}>
+                <div style={{ width: "70px", height: "50px", padding: "2px" }}>
                   <img
                     key={index}
                     src={skill}

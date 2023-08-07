@@ -89,6 +89,8 @@ const Projects = () => {
             />
           </div>
         ))}
+      </div>
+      <div className="pt-20 bg-black">
         <SkillsContent />
       </div>
     </>
